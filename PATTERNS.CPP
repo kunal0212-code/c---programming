@@ -7,6 +7,7 @@ int main()
     int m = 6;
     int a = 4;
     int b = 4;
+    int c = 5;
     
         // outer loop
         for (int i = 1; i <= n; i++)
@@ -39,6 +40,14 @@ int main()
         cout << endl;
     }
 
+       //new pattern half pyramid
+
+       for (int i=1; i<=c ; i++){
+        for (int j=1 ; j<=i ; j++){
+            cout << j;
+        }
+        cout << endl;
+       }
        return 0;
 }
 
